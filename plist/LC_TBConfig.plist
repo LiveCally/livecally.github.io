@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BMZY</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>38057734826</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/38057734826.jpg</string>
+			<key>Description</key>
+			<string>羊毫笔 大小白云 可善用退换货功能挑选好笔</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>586692950530</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/586692950530.jpg</string>
+			<key>Description</key>
+			<string>兼毫笔 周虎臣 初学者可用稍好一点的笔</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>40576119912</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/40576119912.jpg</string>
+			<key>Description</key>
+			<string>狼毫笔 文宝山真品狼毫</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>584297432699</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/584297432699.jpg</string>
+			<key>Description</key>
+			<string>墨汁 一得阁 使用方便</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>15646494712</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/15646494712.jpg</string>
+			<key>Description</key>
+			<string>墨汁 曹素功 使用方便</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>553658701746</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/553658701746.jpg</string>
+			<key>Description</key>
+			<string>毛边纸 练习用</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>542803497304</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/542803497304.jpg</string>
+			<key>Description</key>
+			<string>红星牌半生熟宣纸 创作用</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>545432723758</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/545432723758.jpg</string>
+			<key>Description</key>
+			<string>碟 用墨汁不需要砚台</string>
+		</dict>
+	</array>
+	<key>LanTing</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>22184247169</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/22184247169.jpg</string>
+			<key>Description</key>
+			<string>水写布版 兰亭集序</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>542850477067</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/542850477067.jpg</string>
+			<key>Description</key>
+			<string>1:1真迹复印 王羲之兰亭集序 已装裱</string>
+		</dict>
+	</array>
+	<key>KuaiXue</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>542854778603</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/542854778603.jpg</string>
+			<key>Description</key>
+			<string>1:1真迹复印 王羲之快雪时晴帖 已装裱</string>
+		</dict>
+	</array>
+	<key>Basics</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>40433834052</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/40433834052.jpg</string>
+			<key>Description</key>
+			<string>水写布 清水练习 方便节约干净</string>
+		</dict>
+	</array>
+	<key>QinFu</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>529758408817</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/529758408817.jpg</string>
+			<key>Description</key>
+			<string>钢笔 德国制造 好用不贵</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>592680467602</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/592680467602.jpg</string>
+			<key>Description</key>
+			<string>田英章硬笔楷书入门 凹槽加强练习</string>
+		</dict>
+		<dict>
+			<key>ItemID</key>
+			<string>570953379919</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/570953379919.jpg</string>
+			<key>Description</key>
+			<string>田英章硬笔行书入门 学生写作文首选</string>
+		</dict>
+	</array>
+	<key>XinJing</key>
+	<array>
+		<dict>
+			<key>ItemID</key>
+			<string>589357103358</string>
+			<key>ThumbURL</key>
+			<string>https://code.aliyun.com/livecally/BMZY/raw/master/589357103358.jpg</string>
+			<key>Description</key>
+			<string>1:1真迹复印 赵孟頫行书心经</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Ads_Distribute</key>
+	<dict>
+		<key>Unity</key>
+		<integer>50</integer>
+		<key>AdMob</key>
+		<integer>46</integer>
+	</dict>
+	<key>GalleryURLs</key>
+	<dict/>
+</dict>
+</plist>
