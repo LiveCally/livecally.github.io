@@ -11,6 +11,7 @@
   <meta name="keywords" content="古琴, 古曲, 琴棋书画, 音乐游戏, 节奏游戏, iOS">
 
   <meta name="apple-itunes-app" content="app-id=1508865913">
+  <meta name="google-play-app" content="app-id=com.sss.QinMo3">
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -94,6 +95,71 @@ div.addthis_toolbox {
 	margin-bottom:20px;
 }
 
+/* SlideJS */
+
+/* Prevents the slideshow from flashing on load */
+#slides {
+  display:none;
+}
+
+#slides .slidesjs-container {
+  margin-bottom:10px;
+}
+
+.slidesjs-navigation {
+	display: block;
+	width: 20px;
+	height: 0;
+	margin: 0;
+	padding-top: 27px;
+	background-image: url(images/arrows.png);
+	background-size: 40px;
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-previous {
+	background-position: 0 0;
+	margin-left: -5px;
+}
+.slidesjs-next {
+	background-position: 20px 0;
+}
+
+a.slidesjs-navigation:hover { background-position-y:-27px }
+
+.slidesjs-pagination {
+	margin:7px 0 0;
+	float: right;
+	list-style: none;
+}
+
+.slidesjs-pagination li {
+	float: left;
+	margin: 0 0px;
+}
+
+.slidesjs-pagination li a {
+	display: block;
+	width: 15px;
+	height: 0;
+	padding-top: 15px;
+	background-image: url(images/pagination.png);
+	background-size: 15px;
+	background-position: 0 0;
+	float: left;
+	overflow: hidden;
+}
+
+.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active { background-position: 0 -15px }
+
+.slidesjs-pagination li a:hover { background-position: 0 -30px }
+
+#slides a:link, #slides a:visited { color: #333 }
+
+#slides a:hover, #slides a:active { color: #9e2020 }
+
   </style>
 
 </head>
@@ -115,8 +181,41 @@ div.addthis_toolbox {
 			<p>希望大家喜欢。</p>
 		</div>
 
+		<div class="twelve columns" style="margin-top:30px;">
+			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+			<script type="text/javascript" src="javascript/jquery.slides.min.js"></script>
+			<script type="text/javascript">
+				$(document).ready(function(){
+					$(".slides-1024").slidesjs({
+					  width: 384,
+					  height: 502
+					});
+				});
+			</script>
+			<div class="slides slides-1024">
+				<img src="images/screenshots-qinmo-1.png" alt="琴魔截图1" />
+				<img src="images/screenshots-qinmo-2.png" alt="琴魔截图2" />
+				<img src="images/screenshots-qinmo-3.png" alt="琴魔截图3" />
+			</div>
+
+			<script>
+			$(function() {
+			  $('#slides').slidesjs({
+			    width: 384,
+			    height: 502,
+			    play: {
+			      active: true,
+			      auto: true,
+			      interval: 5000,
+			      swap: true
+			    }
+			  });
+			});
+			</script>
+		</div>		
+		
 		<div class="twelve columns" style="text-align:center; margin-top:40px;">
-			<a href="https://itunes.apple.com/cn/app/id1372545856" target="_blank"><img src="../images/Download_on_the_App_Store_Badge_CN_135x40.svg" alt="从苹果应用商店下载" class="appstore-button" /></a>
+			<a href="https://itunes.apple.com/cn/app/id1508865913" target="_blank"><img src="../images/Download_on_the_App_Store_Badge_CN_135x40.svg" alt="从苹果应用商店下载" class="appstore-button" /></a>
 		</div>
 
 		<div class="twelve columns" style="text-align:center; margin-top:30px;">
