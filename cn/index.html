@@ -24,6 +24,8 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="../css/normalize.css">
   <link rel="stylesheet" href="../css/skeleton.css">
+  <link rel="stylesheet" type="text/css" href="../slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="../slick/slick-theme.css">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -94,71 +96,36 @@ div.addthis_toolbox {
 	margin-bottom:20px;
 }
 
+    .slider {
+        width: 50%;
+        margin: 100px auto;
+    }
 
-/* SlideJS */
+    .slick-slide {
+      margin: 0px 20px;
+    }
 
-/* Prevents the slideshow from flashing on load */
-#slides {
-  display:none;
-}
+    .slick-slide img {
+      width: 100%;
+    }
 
-#slides .slidesjs-container {
-  margin-bottom:10px;
-}
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
 
-.slidesjs-navigation {
-	display: block;
-	width: 20px;
-	height: 0;
-	margin: 0;
-	padding-top: 27px;
-	background-image: url(../images/arrows.png);
-	background-size: 40px;
-	background-position: 0 0;
-	float: left;
-	overflow: hidden;
-}
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+    
+    .slick-active {
+      opacity: .5;
+    }
 
-.slidesjs-previous {
-	background-position: 0 0;
-	margin-left: -5px;
-}
-.slidesjs-next {
-	background-position: 20px 0;
-}
-
-a.slidesjs-navigation:hover { background-position-y:-27px }
-
-.slidesjs-pagination {
-	margin:7px 0 0;
-	float: right;
-	list-style: none;
-}
-
-.slidesjs-pagination li {
-	float: left;
-	margin: 0 0px;
-}
-
-.slidesjs-pagination li a {
-	display: block;
-	width: 15px;
-	height: 0;
-	padding-top: 15px;
-	background-image: url(../images/pagination.png);
-	background-size: 15px;
-	background-position: 0 0;
-	float: left;
-	overflow: hidden;
-}
-
-.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active { background-position: 0 -15px }
-
-.slidesjs-pagination li a:hover { background-position: 0 -30px }
-
-#slides a:link, #slides a:visited { color: #333 }
-
-#slides a:hover, #slides a:active { color: #9e2020 }
+    .slick-current {
+      opacity: 1;
+    }
 
   </style>
 
@@ -190,40 +157,29 @@ a.slidesjs-navigation:hover { background-position-y:-27px }
 		</div>
 
 		<div class="twelve columns" style="margin-top:30px;">
-			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-			<script type="text/javascript" src="../javascript/jquery.slides.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$(".slides-1024").slidesjs({
-					  width: 384,
-					  height: 502
-					});
-				});
-			</script>
-			<div class="slides slides-1024">
-				<img src="../images/screenshots-1-cn.png" alt="活字帖App截图" />
-				<img src="../images/screenshots-2-cn.png" alt="活字帖App截图" />
-				<img src="../images/screenshots-3-cn.png" alt="活字帖App截图" />
-				<img src="../images/screenshots-4-cn.png" alt="活字帖App截图" />
-				<img src="../images/screenshots-5-cn.png" alt="活字帖App截图" />				
+			<div class="slides">
+				<div><img src="../images/screenshots-1-cn.png" alt="活字帖App截图" /></div>
+  				<div><img src="../images/screenshots-2-cn.png" alt="活字帖App截图" /></div>
+  				<div><img src="../images/screenshots-3-cn.png" alt="活字帖App截图" /></div>
+  				<div><img src="../images/screenshots-4-cn.png" alt="活字帖App截图" /></div>
+  				<div><img src="../images/screenshots-5-cn.png" alt="活字帖App截图" /></div>
 			</div>
+		</div>	
+		
+		<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+		<script type="text/javascript" src="../slick/slick.min.js"></script>
 
-			<script>
-			$(function() {
-			  $('#slides').slidesjs({
-			    width: 384,
-			    height: 502,
-			    play: {
-			      active: true,
-			      auto: true,
-			      interval: 5000,
-			      swap: true
-			    }
-			  });
-			});
-			</script>
-
-		</div>
+		<script type="text/javascript">
+    			$(document).ready(function(){
+      				$('.slides').slick({
+        				dots: true,
+					slidesToScroll: 1,
+					autoplay: true,
+					autoplaySpeed: 5000
+      				});
+    			});
+  		</script>
 
 		<div class="twelve columns" style="text-align:center; margin-top:40px;">
 			<a href="https://itunes.apple.com/cn/app/huo-zi-tie/id554212306" target="_blank"><img src="../images/Download_on_the_App_Store_Badge_CN_135x40.svg" alt="从苹果应用商店下载" class="appstore-button" /></a>
