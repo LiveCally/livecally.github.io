@@ -107,64 +107,6 @@ div.addthis_toolbox {
   display:none;
 }
 
-#slides .slidesjs-container {
-  margin-bottom:10px;
-}
-
-.slidesjs-navigation {
-	display: block;
-	width: 20px;
-	height: 0;
-	margin: 0;
-	padding-top: 27px;
-	background-image: url(../images/arrows.png);
-	background-size: 40px;
-	background-position: 0 0;
-	float: left;
-	overflow: hidden;
-}
-
-.slidesjs-previous {
-	background-position: 0 0;
-	margin-left: -5px;
-}
-.slidesjs-next {
-	background-position: 20px 0;
-}
-
-a.slidesjs-navigation:hover { background-position-y:-27px }
-
-.slidesjs-pagination {
-	margin:7px 0 0;
-	float: right;
-	list-style: none;
-}
-
-.slidesjs-pagination li {
-	float: left;
-	margin: 0 0px;
-}
-
-.slidesjs-pagination li a {
-	display: block;
-	width: 15px;
-	height: 0;
-	padding-top: 15px;
-	background-image: url(../images/pagination.png);
-	background-size: 15px;
-	background-position: 0 0;
-	float: left;
-	overflow: hidden;
-}
-
-.slidesjs-pagination li a.active, .slidesjs-pagination li a:hover.active { background-position: 0 -15px }
-
-.slidesjs-pagination li a:hover { background-position: 0 -30px }
-
-#slides a:link, #slides a:visited { color: #333 }
-
-#slides a:hover, #slides a:active { color: #9e2020 }
-
   </style>
 
 </head>
@@ -187,38 +129,22 @@ a.slidesjs-navigation:hover { background-position-y:-27px }
 		</div>
 
 		<div class="twelve columns" style="margin-top:30px;">
-			<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
-			<script type="text/javascript" src="javascript/jquery.slides.min.js"></script>
-			<script type="text/javascript">
-				$(document).ready(function(){
-					$(".slides-1024").slidesjs({
-					  width: 384,
-					  height: 682
-					});
-				});
-			</script>
-			<div class="slides slides-1024">
-			    <ul>
-				<li><img src="images/screenshots-qinmo-1.jpg" alt="琴魔截图1" /></li>
-				<li><img src="images/screenshots-qinmo-2.jpg" alt="琴魔截图2" /></li>
-				<li><img src="images/screenshots-qinmo-3.jpg" alt="琴魔截图3" /></li>
-			    </ul>
-			</div>
-
+  			<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  			<script src="jquery.slides.min.js"></script>
 			<script>
-			$(function() {
-			  $('#slides').slidesjs({
-			    width: 384,
-			    height: 682,
-			    play: {
-			      active: true,
-			      auto: true,
-			      interval: 5000,
-			      swap: true
-			    }
-			  });
-			});
-			</script>
+    			  $(function(){
+      			    $("#slides").slidesjs({
+        			width: 384,
+        			height: 682
+      			    });
+    			  });
+  			</script>
+			
+			<div id="slides">
+				<img src="images/screenshots-qinmo-1.jpg" alt="琴魔截图1" />
+				<img src="images/screenshots-qinmo-2.jpg" alt="琴魔截图2" />
+				<img src="images/screenshots-qinmo-3.jpg" alt="琴魔截图3" />
+			</div>
 		</div>		
 		
 		<div class="twelve columns" style="text-align:center; margin-top:40px;">
