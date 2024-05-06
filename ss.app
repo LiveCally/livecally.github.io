@@ -7,6 +7,7 @@ Tools:
  - ClickShow
  - Cryptomator(加密备份)
  - Draw.io
+ - EV录屏
  - HandBrake(视频转码)
  - hashcat(破解zip密码)
  - John-the-ripper(破解zip密码)
